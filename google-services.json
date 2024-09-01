@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "446313570602",
+    "project_id": "codetalks-66ea0",
+    "storage_bucket": "codetalks-66ea0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446313570602:android:58f290e3d9840a6ba2be53",
+        "android_client_info": {
+          "package_name": "com.xaveyn.CodeTalks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446313570602-06trb4afob9p2qh35lr55skdhn6lg4m8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xaveyn.CodeTalks",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "446313570602-0ccvpfjdvt232b5br8dnqu2mipdae2ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPyI6Jrn8qtMbgNC88mSZk2vTc4POhFLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446313570602-0ccvpfjdvt232b5br8dnqu2mipdae2ol.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "446313570602-fpijet43kcvdqnu512f1bcakocf552np.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xaveyn.CodeTalks"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

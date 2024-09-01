@@ -1,0 +1,85 @@
+import Colors from '@/constants/Colors';
+import { StyleSheet } from 'react-native';
+
+export const defaultStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.white,
+  },
+  inputField: {
+    height: 44,
+    borderWidth: 1,
+    borderColor: Colors.grey,
+    borderRadius: 8,
+    padding: 10,
+    backgroundColor: Colors.white,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    shadowOffset: {
+      width: 1,
+      height: 2,
+    },
+  },
+  btn: {
+    backgroundColor: Colors.primary,
+    height: 50,
+    borderRadius: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    shadowOffset: {
+      width: 1,
+      height: 2,
+    },
+  },
+  btnText: {
+    color: Colors.white,
+    fontSize: 16,
+    fontFamily: 'mon-b',
+  },
+  btnIcon: {
+    position: 'absolute',
+    left: 16,
+  },
+  footer: {
+    position: 'absolute',
+    height: 100,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: Colors.white,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderTopColor: Colors.grey,
+    borderTopWidth: StyleSheet.hairlineWidth,
+  },
+  btnOutline: {
+    backgroundColor: Colors.white,
+    borderWidth: 1,
+    borderColor: Colors.grey,
+    height: 50,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+    paddingHorizontal: 10,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    shadowOffset: {
+      width: 1,
+      height: 2,
+    },
+  },
+  btnOutlineText: {
+    color: '#000',
+    fontSize: 16,
+    fontFamily: 'mon-sb',
+  },
+});
