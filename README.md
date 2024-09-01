@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# CodeTalks - Mobile Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+CodeTalks is a mobile application designed to facilitate coding discussions and knowledge sharing within the developer community. The app leverages modern technologies like Firebase for authentication, real-time database, and storage, along with Expo Router for seamless navigation and `date-fns` for date manipulation. This README provides an overview of the features, setup instructions, and additional details for contributors.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Firebase Authentication:**
+  - Secure user authentication using Firebase Auth.
+  - Supports Google Sign-In for quick user registration and login.
+
+- **Real-time Chat with Firebase Realtime Database:**
+  - Users can engage in coding discussions in real-time.
+  - Seamless and instant message delivery with Firebase Realtime Database.
+
+- **Cloud Storage:**
+  - Users can upload and share code snippets, images, and other files using Firebase Storage.
+
+- **Expo Router for Navigation:**
+  - Simplified and organized navigation using Expo’s file-based routing system.
+
+- **Date Handling with `date-fns`:**
+  - Efficient and simple date manipulation and formatting using `date-fns`.
+
+## Screenshots
+
+Here are some screenshots showcasing different parts of the application:
+
+| Sign In | Sign Up (Storage) | Rooms |
+|---------|-------------------|-------|
+| <img src="./screenshots/1.jpg" alt="Sign In" style="width: 200px; height: auto;" /> | <img src="./screenshots/2.jpg" alt="Sign Up (Storage)" style="width: 200px; height: auto;" /> | <img src="./screenshots/3.jpg" alt="Rooms" style="width: 200px; height: auto;" /> |
+
+| Create Room | Create Room | Profile |
+|-------------|-------------|---------|
+| <img src="./screenshots/4.jpg" alt="Create Room" style="width: 200px; height: auto;" /> | <img src="./screenshots/5.jpg" alt="Create Room" style="width: 200px; height: auto;" /> | <img src="./screenshots/6.jpg" alt="Profile" style="width: 200px; height: auto;" /> |
+
+| Room In | Room In |
+|---------|---------|
+| <img src="./screenshots/7.jpg" alt="Room In" style="width: 200px; height: auto;" /> | <img src="./screenshots/8.jpg" alt="Room In" style="width: 200px; height: auto;" /> |
+
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. **Clone the repository:**
 
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/oguzhanyavass/CodeTalks-App.git
