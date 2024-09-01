@@ -25,17 +25,17 @@ CodeTalks is a mobile application designed to facilitate coding discussions and 
 
 Here are some screenshots showcasing different parts of the application:
 
-| Sign In | Sign Up (Storage) | Rooms |
-|---------|-------------------|-------|
-| <img src="./screenshots/1.jpg" alt="Sign In" style="width: 200px; height: auto;" /> | <img src="./screenshots/2.jpg" alt="Sign Up (Storage)" style="width: 200px; height: auto;" /> | <img src="./screenshots/3.jpg" alt="Rooms" style="width: 200px; height: auto;" /> |
+| Sign In | Sign Up | Sign Up (Storage) |
+|---------|---------|-------------------|
+| <img src="./screenshots/1.jpg" alt="Sign In" style="width: 200px; height: auto;" /> | <img src="./screenshots/2.jpg" alt="Sign Up (Storage)" style="width: 200px; height: auto;" /> | <img src="./screenshots/3.jpg" alt="Sign Up (Storage)" style="width: 200px; height: auto;" /> |
 
-| Create Room | Create Room | Profile |
-|-------------|-------------|---------|
-| <img src="./screenshots/4.jpg" alt="Create Room" style="width: 200px; height: auto;" /> | <img src="./screenshots/5.jpg" alt="Create Room" style="width: 200px; height: auto;" /> | <img src="./screenshots/6.jpg" alt="Profile" style="width: 200px; height: auto;" /> |
+| Rooms | Create Room | Create Room |
+|-------|-------------|-------------|
+| <img src="./screenshots/4.jpg" alt="Rooms" style="width: 200px; height: auto;" /> | <img src="./screenshots/5.jpg" alt="Create Room" style="width: 200px; height: auto;" /> | <img src="./screenshots/6.jpg" alt="Create Room" style="width: 200px; height: auto;" /> |
 
-| Room In | Room In |
-|---------|---------|
-| <img src="./screenshots/7.jpg" alt="Room In" style="width: 200px; height: auto;" /> | <img src="./screenshots/8.jpg" alt="Room In" style="width: 200px; height: auto;" /> |
+| Profile | Room In | Room In |
+|---------|---------|---------|
+| <img src="./screenshots/7.jpg" alt="Profile" style="width: 200px; height: auto;" /> | <img src="./screenshots/8.jpg" alt="Room In" style="width: 200px; height: auto;" /> | <img src="./screenshots/9.jpg" alt="Room In" style="width: 200px; height: auto;" /> |
 
 
 ## Installation
